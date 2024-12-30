@@ -16,6 +16,8 @@ const RegisterPage = () => {
         })
         if(response.ok === false){
             alert('Registeration failed!')
+        } else {
+          alert('Registeration successfull')
         }
     }
 
